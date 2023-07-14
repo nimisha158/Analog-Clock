@@ -1,0 +1,127 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#dial {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  border: 15px solid gray;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 100px;
+  background-color: #1a1a1a;
+}
+#point {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  top: 240px;
+  left: 240px;
+  position: absolute;
+}
+.num {
+  font-size: 30px;
+  font-weight: 600;
+  position: absolute;
+  color: white;
+}
+.num1 {
+  top: 40px;
+  right: 130px;
+}
+.num2 {
+  top: 125px;
+  right: 45px;
+}
+.num3 {
+  top: 235px;
+  right: 10px;
+}
+.num4 {
+  top: 345px;
+  right: 45px;
+}
+.num5 {
+  top: 430px;
+  right: 130px;
+}
+.num6 {
+  bottom: 10px;
+  left: 240px;
+}
+.num7 {
+  top: 430px;
+  left: 130px;
+}
+.num8 {
+  top: 345px;
+  left: 45px;
+}
+.num9 {
+  top: 235px;
+  left: 10px;
+}
+.num10 {
+  top: 125px;
+  left: 45px;
+}
+.num11 {
+  top: 40px;
+  left: 130px;
+}
+.num12 {
+  top: 10px;
+  left: 235px;
+}
+.min {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  top: 50px;
+  left: 50px;
+  position: absolute;
+}
+.min-hand {
+  width: 4px;
+  height: 200px;
+  background-color: rgb(210, 59, 59);
+  position: relative;
+  left: 198px;
+  border-radius: 5px;
+}
+.hour {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  top: 100px;
+  left: 100px;
+  position: absolute;
+}
+.hour-hand {
+  width: 6px;
+  height: 150px;
+  background-color: rgb(38, 38, 119);
+  position: relative;
+  left: 150px;
+  border-radius: 8px;
+}
+
+.sec {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  top: 75px;
+  left: 75px;
+  position: absolute;
+}
+.sec-hand {
+  width: 3px;
+  height: 175px;
+  background-color: white;
+  position: relative;
+  left: 174px;
+  border-radius: 4px;
+}
+
